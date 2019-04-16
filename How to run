@@ -1,5 +1,7 @@
 Feed to any adversary, using a valid MNIST loader. Note : Only transform to tensor and reshape to 784 before inputting MNIST.
 
+fgsm.py provided with this runs FGSM.
+
 class Net(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
